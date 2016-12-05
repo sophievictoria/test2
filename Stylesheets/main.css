@@ -1,0 +1,384 @@
+<style>
+  body {
+          font-family: 'Work Sans', sans-serif;
+          margin: 0 auto;
+          max-width: 600px;
+          text-align: center;
+        }
+
+  #top, #bottom, #left, #right {
+	                               background: rgba(255,255,255,1);
+
+	                              }
+	#left, #right {
+		                top: 0; bottom: 0;
+		                width: 15px;
+                    position: fixed;
+		            }
+
+  #left {
+          left: 0;
+        }
+
+
+  #right  {
+            right: 0;
+          }
+
+
+	#top {
+		      left: 0; right: 0;
+		      height:15px;
+		    }
+
+
+  #bottom {
+  		      left: 0; right: 0;
+  		      height:0px;
+  		    }
+
+	#top {
+         top: 0;
+       }
+
+  #bottom {
+            bottom: 0;
+          }
+
+
+
+  body {
+        background-color: rgba(0,0,0,0.05);
+       }
+
+  h1 {
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        margin: 0 0 0 0;
+        padding: 15px 0 15px 0;
+        letter-spacing: 5px;
+        font-weight:bolder;
+      }
+
+  h2 {
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        color: rgba(0,0,0,0.05);
+        font-size: 40px;
+        margin: 0px 0 5px 0;
+        letter-spacing: 5px;
+        font-weight: bold;
+        padding: 60px 0 0 0;
+      }
+
+ .h2a {
+        padding: 0 0 60px 0;
+      }
+
+ mark {
+        background-color: rgba(255,255,255,1);
+        color: #FFB6C1;
+      }
+
+  h3 {
+        font-family: 'Work Sans', sans-serif;
+        text-align: left;
+        color: rgba(0,0,0,0.5);
+        margin: 0px 0 70px 0;
+        font-size: 40px;
+        margin: 0 0 0 0;
+        letter-spacing: 10px;
+      }
+
+  h4 {
+        font-family: 'Work Sans', sans-serif;
+        text-align: left;
+        color: #FFB6C1;
+        margin: 0px 0 70px 0;
+        font-size: 130px;
+        margin: 20 0 20 0;
+        letter-spacing: 15px;
+        text-align: center;
+      }
+
+  h5 {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 60px;
+        letter-spacing: 5px;
+        align: center;
+      }
+
+  h6 {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 20px;
+        letter-spacing: 5px;
+        align: center;
+      }
+
+  p {
+      font-family: 'Work Sans', sans-serif;
+      text-align: left;
+      color: rgba(0,0,0,0.75);
+      margin: 0px 0 70px 0;
+      font-size: 14px;
+      margin: 0 0 0 0;
+      letter-spacing: 0px;
+    }
+
+  .address {
+              font-style: italic;
+            }
+
+  .p2 {
+        text-align: right;
+      }
+
+  .p3 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bolder;
+      }
+
+  .address2 {
+              text-align: right;
+              font-style: italic;
+            }
+
+  .right {
+            text-align: right;
+          }
+
+  label {
+          color: rgba(0,0,0,0.5);
+          font-family: 'Work Sans', sans-serif;
+          padding:20px 0 5px 0;
+          letter-spacing: 5px;
+        }
+
+  ul {
+        padding: 10px;
+        background-color: rgba(0,0,0,0.0);
+        font-family: 'Work Sans', sans-serif;
+        padding:20px 0 0 0;
+        letter-spacing: 3px;
+     }
+
+
+ .share-buttons {
+                  background-color: rgba(255,255,255,0);
+                }
+
+ li {
+      display: inline-block;
+      padding: 0px 30px 0px 30px;
+    }
+
+ .social-list {
+                padding: 0px 0px 0px 0px;
+              }
+
+ .main {
+         letter-spacing: 5px;
+         font-weight: bolder;
+         font-size: 25px;
+       }
+
+ .amain {
+          color: rgba(255,255,255,1);
+        }
+
+ a {
+      color: rgba(0,0,0,0.7);
+    }
+
+ .AML {
+        color: rgba(51,9,155,1);
+      }
+
+ a:hover {
+          color:#666666 ;
+         }
+
+ .amain:hover {
+                color: rgba(255,255,255,1);
+              }
+
+ .AML:hover {
+              color: rgba(51,9,155,1);
+            }
+
+  .nav {
+         text-align: center;
+       }
+
+  .ul2 {
+          background-color: white
+          position: center;
+        }
+
+  .gallery-item {
+                  height: auto;
+                  width: 100%;
+                  float: left;
+                  margin-bottom: 2em;
+                  position: relative;
+                }
+
+  .gallery-item-small {
+                        height: auto;
+                        width: 100%;
+                        float: left;
+                        margin-bottom: 2em;
+                        position: relative;
+                      }
+
+  .gallery-item2 {
+                    height: auto;
+                    width: 100%;
+                    float: left;
+                    margin-bottom: 2em;
+                    position: relative;
+                  }
+
+
+
+  .gallery-item img {
+                      width: 100%;
+
+                    }
+
+  .gallery-item-small img {
+                            width: 100%;
+                          }
+
+  .gallery-item2 img {
+                        width: 100%;
+                      }
+
+  .gallery-item:hover .img-title {
+                                    opacity: 1;
+                                  }
+
+  .gallery-item-small:hover .img-title-small {
+                                                opacity: 1;
+                                              }
+
+  .img-title {
+                position: absolute;
+                top: 0;
+                margin: 0;
+                height: 100%;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                display: none;
+                background-color: rgba(0, 0, 0, 0.7);
+                transition: all 0.5s ease;
+              }
+
+  .img-title h5 {
+                  position: absolute;
+                  color: #bbbbbb;
+                  top: 40%;
+                  width: 100%;
+                  text-align: center;
+                }
+
+  .img-title-small {
+                      position: absolute;
+                      top: 0;
+                      margin: 0;
+                      height: 100%;
+                      width: 100%;
+                      text-align: center;
+                      opacity: 0;
+                      display: none;
+                      background-color: rgba(0, 0, 0, 0.7);
+                      transition: all 0.5s ease;
+                    }
+
+  .img-title-small h6 {
+                        position: absolute;
+                        color: #bbbbbb;
+                        top: 35%;
+                        width: 100%;
+                        text-align: center;
+                      }
+
+
+  ul.share-buttons {
+                    list-style: none;
+                    padding: 0;
+                   }
+
+  ul.share-buttons {
+                    display: inline;
+                    position: center;
+                   }
+
+ ul.share-buttons .sr-only {
+                              position: center;
+                              clip: rect(1px 1px 1px 1px);
+                              clip: rect(1px, 1px, 1px, 1px);
+                              padding: 0;
+                              border: 0;
+                              height: 1px;
+                              width: 1px;
+                              overflow: hidden;
+                            }
+
+ @media (max-width: 500px) {
+                              h1 {
+                                    font-size: 14px
+                                  }
+
+                              h2 {
+                                    font-size: 18px;
+                                    padding: 20px 0 0 0;
+                                  }
+
+                             .h2a {
+                                    padding: 0 0 20px 0;
+                                  }
+
+                             h3  {
+                                    font-size: 30px;
+                                  }
+
+                             h4  {
+                                    font-size: 40px;
+                                    margin:20px 0 30px 0;
+                                  }
+
+                             mark {
+                                    background-color: rgba(0,0,0,0);
+                                  }
+
+                            .main {
+                                    font-size: 14px;
+                                  }
+
+                             li   {
+                                    font-size: 12px;
+                                  }
+                          }
+
+  @media
+    /* Fairly small screens including iphones */
+    only screen and (max-width: 500px),
+
+    /* iPads */
+    only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
+          {
+	             #top, #bottom, #left, #right {
+                                                display: none;
+                                            }
+          }
+
+
+
+</style>
